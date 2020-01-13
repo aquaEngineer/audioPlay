@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+	<player
+		v-bind:src="'../assets/rapid_galaxy_stream.mp3'"></player>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PlayerComponent from './components/player.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+	player: PlayerComponent
   }
 }
 </script>
