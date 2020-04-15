@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 	<player
-		v-bind:src="'../assets/rapid_galaxy_stream.mp3'"></player>
+		v-bind:src="'menuettm.mp3'"></player>
   </div>
 </template>
 
